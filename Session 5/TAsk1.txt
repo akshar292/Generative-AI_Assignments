@@ -1,0 +1,14 @@
+Task 1: Summarize an IPL Cricket News Article
+Original article (sample created for this assignment):
+
+The Indian Premier League (IPL) continues to attract cricket fans with exciting matches and outstanding performances. Teams compete throughout the tournament, with players showcasing their batting, bowling, and fielding skills. Fans follow the matches closely and support their favorite teams.
+
+In a recent match, the batting team scored a competitive total after a strong opening partnership. The middle-order batters continued the scoring with boundaries and sixes, putting pressure on the opposition. The bowlers tried to control the run rate, but the batting team finished with an impressive score.
+
+During the second innings, the chasing team fought hard to reach the target. However, disciplined bowling and important wickets helped the defending team maintain control. The match demonstrated the importance of teamwork, strategy, and performance under pressure.
+
+Short summary:
+
+The IPL continues to entertain cricket fans with competitive matches and impressive performances. In a recent game, a strong batting partnership helped one team post a challenging total, while disciplined bowling and key wickets helped secure control of the match, highlighting the importance of teamwork and strategy.
+
+Save both the original article and summary in a file named ipl_summary.txt.

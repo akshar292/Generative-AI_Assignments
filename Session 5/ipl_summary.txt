@@ -1,0 +1,74 @@
+SESSION 5 - Applying Generative Models in Industry
+
+TASK 1: IPL Cricket Article and Summary
+
+Original article (sample created for this assignment):
+The Indian Premier League (IPL) continues to attract cricket fans with exciting matches and outstanding performances. Teams compete throughout the tournament, with players showcasing their batting, bowling, and fielding skills. Fans follow the matches closely and support their favorite teams.
+
+In a recent match, the batting team scored a competitive total after a strong opening partnership. The middle-order batters continued the scoring with boundaries and sixes, putting pressure on the opposition. The bowlers tried to control the run rate, but the batting team finished with an impressive score.
+
+During the second innings, the chasing team fought hard to reach the target. However, disciplined bowling and important wickets helped the defending team maintain control. The match demonstrated the importance of teamwork, strategy, and performance under pressure.
+
+Short summary:
+The IPL continues to entertain cricket fans with competitive matches and impressive performances. In a recent game, a strong batting partnership helped one team post a challenging total, while disciplined bowling and key wickets helped secure control of the match, highlighting the importance of teamwork and strategy.
+
+TASK 2: Simple Restaurant Q&A Chatbot
+
+Code:
+def restaurant_chatbot(restaurant_name, cuisine):
+    return f"Yes, {restaurant_name} serves {cuisine} cuisine."
+
+restaurant = input("Enter restaurant name: ")
+cuisine = input("Enter cuisine: ")
+print(restaurant_chatbot(restaurant, cuisine))
+
+Example:
+Input: Pizza Palace, Italian
+Output: Yes, Pizza Palace serves Italian cuisine.
+
+TASK 3: Generate an Original Food Dish Image
+
+Prompt used:
+"A futuristic Gujarati thali with neon colors, traditional dhokla, thepla, undhiyu, farsan, chutneys, and kadhi arranged in a polished metal thali, glowing blue and magenta neon accents, futuristic restaurant setting, cinematic food photography, intricate textures, appetizing presentation, high detail."
+
+Use DALL·E or Bing Image Creator to generate the image, then save the generated image file and submit it with the assignment.
+
+TASK 4: Spotify Playlist Filter
+
+Prompt used:
+"Write a simple Python function that takes a list of song names and returns only the songs that start with the letter S. Make it case-insensitive and include a short example."
+
+Code generated:
+def filter_songs_starting_with_s(song_names):
+    return [song for song in song_names if song.lower().startswith("s")]
+
+songs = [
+    "Shape of You",
+    "Blinding Lights",
+    "Senorita",
+    "Perfect",
+    "Someone Like You",
+    "Levitating"
+]
+
+filtered_songs = filter_songs_starting_with_s(songs)
+print(filtered_songs)
+
+Expected output:
+['Shape of You', 'Senorita', 'Someone Like You']
+
+Explanation:
+The function checks each song name and keeps only names that begin with the letter S, regardless of whether the first letter is uppercase or lowercase.
+
+TASK 5: Production Challenges for Generative AI Chatbots
+
+1. Challenge: Incorrect or fabricated answers
+Generative AI chatbots may provide inaccurate information about movie schedules, ticket availability, product details, prices, or return policies.
+Solution: Connect the chatbot to trusted, up-to-date company databases and APIs, and use validation and fallback responses when information is unavailable.
+
+2. Challenge: Privacy, security, and high operating costs
+Chatbots may process sensitive customer information, face prompt-injection attempts, or become expensive to operate at high traffic volumes.
+Solution: Minimize and protect personal data, apply access controls and input/output safeguards, and use caching, monitoring, and efficient models to control costs.
+
+CONCLUSION
+Generative AI can summarize news, answer customer questions, create images, and help write useful code. In production, companies must also ensure accuracy, privacy, security, and cost efficiency.

@@ -1,0 +1,4 @@
+Task 5 – Prompt and answer for your assignment
+Prompt used: Explain in simple words what KL-divergence loss does in a Variational Autoencoder (VAE), why it is needed, and what might happen if we remove it. Give a simple example.
+
+Answer: KL-divergence loss helps organize the latent space of a Variational Autoencoder. It encourages the encoder's learned probability distributions to stay close to a standard normal distribution. This makes the latent space smoother and helps the decoder generate new images from random points. Without KL-divergence loss, the latent space may become irregular, and random points may produce poor or meaningless images.

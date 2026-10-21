@@ -1,0 +1,85 @@
+# SESSION 1 – Introduction to Generative Models
+
+## Task 1: Daily Apps and Generative AI Features
+
+1. **Instagram – AI Caption Generator:** Generative AI can create creative captions, hashtags, and post descriptions based on uploaded photos.
+
+2. **Zomato – Personalized Food Assistant:** Generative AI can recommend meals based on user preferences and explain why a particular dish may suit them.
+
+3. **Spotify – AI Music Playlist Creator:** Generative AI can create personalized playlists based on a user's mood, music taste, and activities.
+
+## Task 2: Discriminative Models vs. Generative Models
+
+| Aspect | Discriminative Models | Generative Models |
+|---|---|---|
+| Definition | Learn to distinguish between classes or predict outputs from inputs. | Learn patterns in data to generate new content or data. |
+| Main Use | Classification and prediction. | Content creation and data generation. |
+| Example Task | Classifying an email as spam or not spam. | Generating a new email or writing a story. |
+| Example Model Name | Logistic Regression | GPT (Generative Pre-trained Transformer) |
+| Learning Approach | Learns the relationship between input and output, often represented by P(y\|x). | Models data distributions to generate new content. |
+| Output | Class labels, probabilities, or predictions. | New text, images, audio, or code. |
+
+**Conclusion:** Discriminative models focus on predicting or distinguishing, while generative models focus on learning patterns and creating new content.
+
+## Task 3: Product Description Using ChatGPT
+
+**Product Name:** SmartGlow AI Desk Lamp
+
+**Prompt Used:**
+
+Act as a professional e-commerce product copywriter for Flipkart. Create an attractive and engaging product description for a fictional gadget called the "SmartGlow AI Desk Lamp."
+
+The gadget features AI-powered brightness adjustment, voice control, wireless charging, customizable RGB lighting, eye-friendly illumination, and a smart study timer.
+
+Write a catchy product title, a short introduction, five key features, and a compelling closing sentence. Use simple English, highlight the benefits for students and professionals, and make the description persuasive without making unrealistic claims. Keep the content suitable for a Flipkart product listing.
+
+**Output Received:**
+
+**SmartGlow AI Desk Lamp – Smart Lighting for Smarter Living**
+
+Make your workspace brighter, smarter, and more comfortable with the SmartGlow AI Desk Lamp! Designed for students, professionals, and home-office users, this intelligent lamp adapts to your needs and helps create the perfect environment for studying, working, or relaxing.
+
+**Key Features:**
+
+1. **AI Brightness Adjustment:** Automatically adjusts lighting according to your selected environment and lighting preferences.
+2. **Voice Control:** Control supported lighting functions using convenient voice commands.
+3. **Wireless Charging:** Charge compatible smartphones on the integrated wireless charging pad.
+4. **Customizable RGB Lighting:** Choose from multiple colors to match your mood and workspace.
+5. **Smart Study Timer:** Set study sessions and breaks to help maintain a productive routine.
+
+**Light Up Your Productivity!**
+
+Upgrade your desk with the SmartGlow AI Desk Lamp and experience a smarter, more personalized lighting experience every day.
+
+## Task 4: A New Generative AI Feature for an Existing App
+
+**App Selected:** Instagram
+
+**Feature Name:** AI Reel Story Creator
+
+**Application Type:** Text and image/video generation
+
+**Description:**
+
+I would add an AI Reel Story Creator feature to Instagram. This feature would allow users to turn a simple idea, a few photos, or a short description into a creative Instagram Reel.
+
+**How Generative AI Would Power It:**
+
+1. The user enters a prompt, such as "Create a travel reel about my weekend in Goa."
+2. A generative AI text model creates a short script, captions, and a suggested storyline.
+3. An AI system helps arrange the user's selected photos and video clips into a suitable sequence.
+4. An audio-generation or music-recommendation system suggests suitable background audio.
+5. The system generates transitions, subtitles, and a caption for the finished Reel.
+
+**Benefits:**
+
+- Saves time when creating social media content.
+- Helps beginners create attractive Reels without advanced editing skills.
+- Provides personalized captions and creative ideas.
+- Makes content creation easier and more accessible.
+
+**Conclusion:** Generative AI can transform Instagram into a more creative platform where users can produce personalized content with less effort.
+
+## Overall Conclusion
+
+Generative AI is an important technology that can create new content, including text, images, music, and code. Unlike traditional rule-based systems, it learns patterns from data and uses them to generate new outputs. Integrating generative AI into everyday applications can improve personalization, creativity, and user experience.

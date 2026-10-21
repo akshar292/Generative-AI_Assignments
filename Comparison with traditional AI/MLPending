@@ -1,0 +1,31 @@
+Task 1: Comparison Table
+Aspect	Traditional AI/ML	Generative AI (GenAI)
+Main purpose	Predicts outcomes, classifies data, and recommends items.	Creates new content such as text, images, and code.
+Data requirements	Often uses historical or labeled data for a specific task.	Learns patterns from large datasets and may use additional context or prompts.
+Output type	Predictions, scores, classifications, or recommendations.	Natural-language answers, images, stories, summaries, or code.
+Human interaction	Usually works through predefined options or specific inputs.	Can interact conversationally and respond to open-ended prompts.
+Adaptability	Often needs retraining or rule updates to change its behavior significantly.	Can adapt responses to prompts and context without retraining the model for every request.
+Example apps	Spotify song recommendations and Zomato restaurant ranking.	ChatGPT responses, AI-generated Instagram content, and AI customer-support assistants.
+Example use case	Predicting which restaurant a user may prefer.	Explaining restaurant options and generating a personalized meal plan.
+Conclusion: Traditional AI/ML mainly predicts, classifies, and recommends, while GenAI generates new content based on learned patterns and the user's instructions. Both can work together in the same application.
+Task 2: Zomato Restaurant Recommendations
+Zomato recommending restaurants based on a user's previous orders is primarily an example of traditional AI/ML. A recommendation system can analyze order history, cuisine preferences, ratings, location, and ordering patterns to predict which restaurants the user may like. It ranks suitable restaurants using these predictions rather than generating entirely new content. Generative AI could complement this feature by explaining recommendations in natural language or suggesting personalized meals.
+Task 3: Improving Spotify Using Generative AI
+Feature selected: Spotify song recommendations
+
+Spotify could introduce a GenAI-powered feature called AI Mood Playlist Creator.
+1. Users could describe their mood or activity, such as “Create a playlist for a relaxing evening.”
+2. GenAI could understand the request and create a personalized playlist using available music information.
+3. It could explain why particular songs match the user's mood and preferences.
+4. Users could refine the playlist by asking for more energetic, peaceful, or romantic songs.
+5. Traditional recommendation models could rank suitable tracks, while GenAI provides conversational interaction and personalized explanations.
+Task 4: Flipkart Customer Support Chatbot
+Traditional AI/ML approach	Generative AI approach
+1. Uses predefined intents and rules to identify queries such as “Where is my order?” and selects a matching response template.	1. Understands natural-language questions in different forms and generates a conversational answer based on the available order information.
+2. Matches user questions to predefined FAQs or predicts the most relevant support category.	2. Can summarize return policies, explain refund steps in simpler language, and handle follow-up questions using conversation context.
+Example:
+- Traditional AI/ML: User asks, “Where is my order?” The chatbot returns a predefined response or tracking link.
+- Generative AI: User asks, “Can you tell me where my order is and when it will arrive?” The chatbot can retrieve the verified tracking details and explain the estimated delivery in natural language.
+Important: A GenAI chatbot should retrieve current order information from trusted Flipkart systems rather than inventing delivery dates, refund statuses, or product details.
+Final Conclusion
+Traditional AI/ML is effective for predictions, classifications, and recommendations, while Generative AI is useful for creating flexible responses and new content. Combining both approaches can make applications such as Zomato, Spotify, and Flipkart more personalized, conversational, and useful.

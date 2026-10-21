@@ -1,0 +1,35 @@
+Task 3: Stable Diffusion image generation
+Open Stable Diffusion Web and enter this prompt:
+A futuristic cricket stadium during IPL finals, night view, neon lights, packed audience, glowing digital scoreboards, vibrant blue and purple lighting, dramatic floodlights, modern architecture, realistic grass pitch, cinematic wide-angle photography, ultra-detailed, high resolution.
+
+
+
+
+Generate the image and save it to your computer.
+
+Description of the AI-generated image (sample answer):
+
+The AI interpreted the prompt by creating a futuristic cricket stadium at night with bright neon lights, a crowded audience, and glowing digital screens. The lighting and modern architecture give the stadium a cinematic atmosphere suitable for an IPL final.
+
+Note: This is a sample description. Adjust it to match the actual image you generate.
+Task 4: Two real-world applications of diffusion models
+1. Adobe Photoshop Generative Fill — Users select an unwanted object or empty area in a photograph and use a text prompt to remove, replace, or fill it with visually matching content. Adobe documents Generative Fill as an image-editing feature powered by Firefly generative AI. 
+
+Firefly
++1
+
+
+
+
+2. SinSR (Diffusion-Based Image Super-Resolution) — This research-based image-restoration tool uses a diffusion model to upscale low-resolution images, helping users restore clearer details in blurry or small photographs. 
+
+GitHub
+
+
+
+Task 5: Risks and ethical concerns
+Risk	Explanation	Suggested solution
+Misinformation and deepfakes	AI-generated images can falsely depict real events or people and mislead social media users.	Add visible AI labels or provenance metadata and provide tools to verify image authenticity.
+Copyright and harmful content	Generated images may imitate artists' work or produce offensive, biased, or inappropriate content.	Use responsible training data, content filters, and moderation systems.
+Conclusion
+Diffusion models generate images by gradually removing noise from a noisy representation. Forward diffusion adds noise, while learned reverse diffusion generates or reconstructs images. These models support image editing, restoration, super-resolution, and text-to-image generation, but they must be used responsibly.

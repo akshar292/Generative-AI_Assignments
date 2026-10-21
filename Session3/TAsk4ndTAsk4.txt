@@ -1,0 +1,14 @@
+Task 4: Two Real-World Applications of GANs
+1. Image-to-image translation: Tools such as Pix2Pix use GANs to convert sketches or maps into realistic-looking images by learning the relationship between paired input and output images.
+
+2. Artistic style transfer: GAN-based systems can transform photographs into artwork resembling paintings by learning visual patterns and styles from example images.
+Task 5: Difference Between DCGAN, StyleGAN, and CycleGAN
+Prompt used: Explain the difference between DCGAN, StyleGAN, and CycleGAN in simple English in 3–4 lines. Give the main purpose of each model.
+
+ChatGPT's response:
+- DCGAN (Deep Convolutional GAN): Uses convolutional neural networks to generate images, often learning from datasets such as handwritten digits or faces.
+- StyleGAN: Generates highly realistic images and provides control over visual attributes and styles, especially in face generation.
+- CycleGAN: Converts images from one visual domain to another without requiring paired training examples, such as converting horse images into zebra-like images.
+One thing I learned: I learned that CycleGAN can perform image-to-image translation without paired examples, while Pix2Pix generally uses paired training images.
+Conclusion
+GANs consist of two neural networks: a generator that creates synthetic data and a discriminator that attempts to distinguish generated data from real data. Through adversarial training, both networks improve over time, enabling applications such as image generation, image translation, and artistic transformations.

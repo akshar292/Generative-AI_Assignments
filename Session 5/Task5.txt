@@ -1,0 +1,5 @@
+Task 5: Production Challenges for Generative AI Chatbots
+Challenge	Explanation	Solution
+Incorrect information	A chatbot may provide incorrect movie timings, ticket availability, product details, or prices.	Connect the model to verified, up-to-date databases and APIs, and validate responses before presenting them.
+Scalability and latency	Responses can become slow and expensive when many users access the chatbot simultaneously.	Use caching, optimized models, load balancing, and scalable cloud infrastructure.
+Conclusion: Generative AI can help businesses summarize news, answer customer questions, generate creative images, and filter information. However, companies must ensure accuracy, security, scalability, and cost efficiency before deploying these models in real-world applications.
